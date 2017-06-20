@@ -41,10 +41,10 @@ const setupAMX = function (config) {
   self.currentCommand = ''
 
   // create telnet self.connection to amx device
-  self.connectAMX = function (args) {
+  self.connectAMX = function () {
     // console.log('host:', args.host)
     let options = {
-      host: args.host,
+      host: self.config.host,
       timeout: 15000,
       username: 'administrator\r',
       password: 'password\r',
@@ -220,7 +220,7 @@ const setupAMX = function (config) {
 // if any arguments have been passed
 if (process.argv.length >= 3) {
   CLIInstance = new setupAMX(argv)
-  CLIInstance.connectAMX(CLIInstance.config)
+  CLIInstance.connectAMX()
 } else {
   console.log('no arguments passed in');
 }
