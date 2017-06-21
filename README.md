@@ -44,50 +44,43 @@ The device to connect to
 IP address to set
 
 ##### --name
-
-##### --host
-
-
-##### --name
-
+new host name for the device
 
 ##### --type
-
-
-##### --ip
-
+'s' for static or 'd' for dhcp
 
 ##### --sub
-
+subnet mask
 
 ##### --gate
-
+gateway
 
 ##### --username
-
+telent username
 
 ##### --password
-
+telent password
 
 ##### --device
-
+device ID for touch panels
 
 ##### --pin
-
+pin password for touch panels
 
 ##### --master
-
+master connection ip address for touch panels
 
 ##### --mode
-
+master connection mode. 'u' for url
 
 ##### --system
-
+system number for master connection from touch panel
 
 ##### --masterPass
-
+password for master from touch panel
 
 ##### --masterUser
-
+username for master from touch panel
 
 ##### --masterPort
+port to connect to from touch panel to master
