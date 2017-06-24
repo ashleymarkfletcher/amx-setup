@@ -24,7 +24,7 @@ $ amx-setup --host 192.168.1.10 --ip 10.10.201.20
 ## Example Usage Node.js
 connect to a device and change it's ip address
 ```js
-const setupAMX = require('setupAMX')
+const setupAMX = require('amx-setup')
 
 const device = new setupAMX({
     host: '192.168.1.20',
