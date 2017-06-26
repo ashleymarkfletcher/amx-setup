@@ -1,6 +1,6 @@
 {
   "name": "amx-setup",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,12 @@
   "bin": {
     "amx-setup": "index.js"
   },
+  "keywords":[
+    "AMX",
+    "Netlinx",
+    "processor",
+    "Harman"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
