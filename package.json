@@ -1,6 +1,6 @@
 {
   "name": "amx-setup",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "processor",
     "Harman"
   ],
-  "author": "",
+  "author": "Ashley Fletcher <ashleymarkfletcher@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "minimist": "^1.2.0",

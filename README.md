@@ -14,6 +14,7 @@ $ npm install amx-setup
   * Set network configuration
   * Set device number
   * Set master connection (for touch panels)
+  * Reboots the device after update
 
 ## Example Usage CLI
 connect to a device and change it's ip address
@@ -32,6 +33,28 @@ const device = new setupAMX({
 })
 
 device.connectAMX()
+```
+
+## Defaults
+```js
+{
+  host: '',
+  name: '',
+  type: 's',
+  ip: '',
+  sub: '',
+  gate: '',
+  username: 'administrator',
+  password: 'password',
+  device: '',
+  pin: '1988',
+  master: '',
+  mode: 'u',
+  system: '0',
+  masterPass: '',
+  masterUser: '',
+  masterPort: ''
+}
 ```
 
 ## CLI API Reference
@@ -84,3 +107,13 @@ username for master from touch panel
 
 ##### --masterPort
 port to connect to from touch panel to master
+
+## Known Issues
+ * After updating a touch panel the connection can timeout due to it automatically rebooting on network configuration change.
+
+## ToDo
+  * Add support for more AMX devices
+  * Filter console logs to be readable
+
+## Devices Tested
+Currently only NX processors and G4 touch panels have been tested so there might be a difference with other touch panels or older processors.
