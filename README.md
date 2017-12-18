@@ -3,6 +3,9 @@ A simple command line tool and Node.js module to setup **[AMX Netlinx](http://ww
 
 A connection is made to the device over **telnet** and commands are sent to configure the device.
 
+
+[![NPM](https://nodei.co/npm/amx-setup.png?downloads=true)](https://nodei.co/npm/amx-setup/)
+
 ## Installation
 
 ```bash
